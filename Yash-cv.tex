@@ -1,0 +1,122 @@
+%% start of file gaurav-cv.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2012 Gaurav Arora (gauravarora.daiict@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}           	             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.83]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\setlength{\maketitlenamewidth}{10cm}        % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+
+\firstname{Yash}
+\familyname{Shah}
+\title{Curriculam Vitae}               % optional, remove the line if not wanted
+%\address{1B/\ 11, Ramesh Nagar,New Delhi}{Delhi - 110015}    % optional, remove the line if not wanted
+\mobile{+91~80~00~059~585}                     % optional, remove the line if not wanted
+\email{mail@yashshah.com}
+\homepage{http://www.yashshah.com}
+\extrainfo{November 29, 1993}
+
+% optional, remove the line if not wanted
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{\textbf{Education}}
+\cventry{2011--2015}{B.Tech \textnormal{in Information and Communication Technology}}{ Dhirubhai Ambani Institute of Information and Communication Technology}{Gandhinagar (Gujarat)}{CGPA \textit{7.96}}{}  % arguments 3 to 6 can be left empty
+\cventry{2011}{XII}{Central Board of Secondary Education, Gujarat Public School}{Vadodara}{\textit{90.67\%}}{}
+\cventry{2009}{X}{Central Board of Secondary Education, Gujarat Public School}{Vadodara}{\textit{86.67\%}}{}
+\vspace{0.3cm}
+\section{\textbf{Experience}}
+
+\cventry{August,2012--Present}{Open Source Contributor}{KDE}{}{}{Active Developer in Simon - an Open Source Speech Recoginition software}{}
+\cventry{May,2012--August,2012}{Contract Developer, Google Summer of Code}{KDE}{}{}{Worked on Improving Speech Recognition using Computer Vision in Simon}{}
+\cventry{2008--2011}{Freelance Developer}{}{}{}{Developed a wide range of Static and Dynamic websites and also Desktop applications}
+\vspace{0.3cm}
+\section{\textbf{Projects}}
+\vspace{0.1cm}
+\space
+\cventry{Title}{Multimodal Accessibility: Using Computer Vision to Improve Speech
+Recognition in Simon}{}{}{}{}
+\cvitem{Description}{ A major obstacle for command and control speech recognition systems is to differentiate commands from background noise. This project, using computer vision, determines when to activate / deactivate the sound recognition using visual cues. The speech recognition is activated only when the user is actively looking at the screen and is speaking something. This resembles the day-to-day communication between human beings since a conversation is carried out by talking to each other face-to-face and any other unwanted voice inputs are not accepted.}
+\vspace{0.1cm}
+\space
+\cventry{Title}{Virtual Dancing Floor}{}{}{}{}
+\cvitem{Description}{It is a Dynamic dance floor in which the computer, using a webcam, controls the volume of the music depending on the dance movements. If the person is dancing with full intensity, then volume will increase and when the dance movements are slow, then volume will decrease accordingly. This project also takes into account, the number of people on the dance floor and adjusts the volume accordingly.}
+\vspace{0.1cm}
+\space
+\cventry{Title}{Tracking Finger Movement to move Cursor}{}{}{}{}
+\cvitem{Description}{Depending on the position of the fingers, this project, using a webcam, allows user to move the cursor on the screen. The cursor follows the movement of the fingers. It has many applications like using it for drawing on the screen, using it as a mouse, tracking gestures, etc.}
+\pagebreak
+\section{\textbf{Positions of Responsibility}}
+ \cvlistitem{Founder/Lead, Google Developer group, DA-IICT} 
+ \cvlistitem{Core Member, Student placement Cell, DA-IICT}
+ \cvlistitem{Co-ordinator, Synapse 2012(Cultural fest), DA-IICT}
+ \cvlistitem{Promoter, Spoken Tutorials by IIT Mumbai, Vadodara District} 
+\vspace{0.3cm}
+\section{\textbf{Achievements and Activities}}
+ \cvlistitem{Selected for Google Summer of Code 2012 in B.Tech First year}
+ \cvlistitem{Participated as KDE Accessibility team member in Randa Meeting 2012, Switzerland - Code Sprint of KDE }
+ \cvlistitem{Attended the Akademy 2012, Europe - The annual world summit of KDE and also presented my GSoC project.}
+ \cvlistitem{Selected for National level mathematic olympiad in XI, topped in the Vadodara city in the regional round}  
+ \cvlistitem{Writing programs since the age of 12}
+ \vspace{0.3cm}
+\section{\textbf{Skills}}
+\cvlistitem{Proficiency in writing real-world applications and good experience of working in teams}
+\cvlistitem{Rapid and efficient in reading and understanding code}
+\cvlistitem{Good at grasping, learning and using new technologies and programming languages}
+
+%\cvitemwithcomment{Area of Interest }{Information Retrieval, Algorithms, Database Management, Web Technologies}{}
+\cventry{Progamming Languages}{C, C++, Qt framework}{}{}{}{Familiar with Python, C\#, VB, Java, .NET framework}
+\cventry{Web Technologies}{HTML, CSS}{}{}{}{Familiar with HTML5, CSS3, Javascript, JQuery, PHP, XML, ASP.NET}
+
+\cventry{Version control}{Git}{}{}{}{}
+\cventry{Build tools}{CMake}{}{}{}{}
+\cventry{Database}{\textnormal{Familiar with MySql}}{}{}{}{}
+\vspace{0.3cm}
+\section{\textbf{Hobbies}}
+ \cvlistitem{Travelling}
+ \cvlistitem{Following different blogs}
+ \cventry{Sports}{\textnormal{Cycling, Basketball, Cricket, Table tennis, Badminton, Football}}{}{}{}{}
+  
+\vspace{0.3cm}
+\section{\textbf{Relevant Links}}
+\cvitemwithcomment{Github}{\textnormal{https://github.com/yashshah}}{}
+\cvitemwithcomment{Youtube}{\textnormal{https://yashshah.com/youtube (a few project demos are available)}}{}
+\cvitemwithcomment{GSOC 2012 Proposal}{\textnormal{https://yashshah.com/gsoc2012}}{}
+%\cvitemwithcomment{Linkedin}{\textnormal{https://yashshah.com/linkedin}}{}
+
+
+\end{document}
+
+%% end of file `template.tex'.
