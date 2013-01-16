@@ -1,4 +1,4 @@
 MyResume
 ========
 
-Curriculam Vitae
+My Curriculam Vitae in Latex
